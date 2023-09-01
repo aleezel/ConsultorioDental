@@ -1,21 +1,28 @@
 
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 2px;
-  box-sizing: inherit; 
-}
 
 footer{
     padding-top: 10px;
     background-color: aquamarine;
 }
 
+.footer{
+  background-color:aliceblue;
+}
+
+ul li{
+  
+}
+
+.icon{
+  height: 80px;
+  width: 80px;
+
+}
+
 
 html {
   box-sizing: border-box;
-  font-size: 120%; 
+
 }
 
 .navbar{
@@ -65,77 +72,7 @@ html {
     width: 80%;
   }
 
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
-/*
-.row{
-    
-  width: 60%;
-  margin: 2rem auto; 
-}
 
-.columnimg {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
-    background-color: red;
-    }
-
-.image{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    background-color: blue;
-}
-*/
-/*
-
-.one{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    width: 50%;
-  height: auto;
-}
-.two{
-    grid-column-start: 5;
-    grid-column-end: 8;
-    grid-row-start: 5;
-    grid-row-end: 5;
-    width: 50%;
-  height: auto;
-}
-.three{
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 8;
-    width: 100%;
-  height: auto;
-}
-.four{
-    grid-column-start: 5;
-    grid-column-end: 8;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    width: 100%;
-  height: auto;
-}
-*/
 .column {
         float: left;
         width: 50%;
@@ -149,3 +86,11 @@ html {
             color: blue;
         }
 
+.padding2020{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.links{
+  list-style: none;
+}

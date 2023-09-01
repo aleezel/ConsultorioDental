@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h3>Rellene el formulario para agendar su cita</h3>
+    <form action="procesar_formulario" method="post">
+        <label for="nombre">Nombre(s)</label>
+        <br>
+        <input type="text" name="nombre" required>
+        <br>
+        <br>
+        <label for="apellido">Apellido</label>
+        <br>
+        <input type="text" name="apellido" required>
+        <br>
+        <br>
+        <label for="telefono">Número telefónico</label>
+        <br>
+        <input type="tel" name="telefono" id="">
+        <br>
+        <p>Seleccione el doctor con el que quiere agendar su cita</p>
+        <select name="doctor" id="">
+            <option value="a"></option>
+            <option value="DrMaria">Dr. María Rodríguez</option>
+            <option value="DrAlejandro">Dr. Alejandro Martínez</option>
+            <option value="DrCarlos">Dr. Carlos Sánchez</option>
+        </select>
+        <br>
+        <p>Seleccione la fecha y hora que desea su cita</p>
+        <input type="datetime-local" name="horarioCita">
+        <br>
+        <p>Coméntenos el motivo de su cita</p>
+        <textarea name="motivo" id="" cols="50" rows="5"></textarea>
+        <br>
+        <br>
+        <input type="submit" name="enviar" id="" value="Registrar cita">
+    </form>
+
+</body>
+</html>
