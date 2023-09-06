@@ -94,3 +94,26 @@ html {
 .links{
   list-style: none;
 }
+
+
+/* 
+    Responsive
+        Responde a un determinado factor o situación. Es la capacidad que tienen los elementos para ajustar a las ventanas, tanto en tamaño como disposición.
+
+    CSS Puro ((Media Querys)
+        Una regla espacial que se ejecuta solo cuando se cumples ciertas condiciones. Estas condiciones están realcioadas con las características de nuestro dispositivo, como el ancho de la pantalla, la orientación y la resolución.
+
+        La sintazis de una media query es:
+
+        @media(parametros o condiciones a cumplir){
+        estilos que se aplican cuando se cumple la condición
+        }
+
+
+*/
+
+@media(min-width:500px) and (max-width:1024px){
+  body{
+    background-color: honeydew;
+  }
+}
